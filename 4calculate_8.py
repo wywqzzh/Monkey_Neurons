@@ -82,7 +82,7 @@ def data_write(file_path, datas):
     f.save(file_path)  # 保存文件
 global SIZE
 SIZE=200
-rate=0.45
+rate=0.4
 def init():
     files_para = './data/ForNorData_MSTd/'
     files_r = './data/AllData_MSTd/AllData/'

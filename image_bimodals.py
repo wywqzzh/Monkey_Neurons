@@ -10,7 +10,7 @@ from scipy.special import comb
 import xlwt
 import xlrd
 SIZE=200
-rate=0.45
+rate=0.40
 def read(path):
     book = xlrd.open_workbook(path)
     sheet1 = book.sheets()[0]

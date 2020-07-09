@@ -19,6 +19,7 @@ def format_matfile(path, name):
 
 
 path_vis = './result/vis/'
+path_ves = './result/ves/'
 path_all = './result/all/'
 files_para = './data/ForNorData_MSTd/'
 files_r = './data/AllData_MSTd/AllData/'
@@ -41,7 +42,7 @@ RawR_cam = []
 RawR_ves = []
 index = []
 Name = []
-rate = 0.45
+rate = 0.4
 for f in both_azimuth_files:
     temp_file = format_matfile(files_para + f, 'ForNorData')
     vest_a.append(temp_file['vest_Direc'])
@@ -104,28 +105,40 @@ print(listdir)
 
 
 for i in range(len(selected_neurons)):
-    if(i==2):
-        xxx=0
     all_path_file = os.path.join(path_all, str(i)+".xls")
     fit_all = pd.read_excel(all_path_file, encoding='gb18030', header=None)
+
+    vis_path_file = os.path.join(path_vis, str(i) + ".xls")
+    fit_vis = pd.read_excel(vis_path_file, encoding='gb18030', header=None)
+    fit_vis=np.array(fit_vis).tolist()[0]
+
+    ves_path_file = os.path.join(path_ves, str(i) + ".xls")
+    fit_ves = pd.read_excel(ves_path_file, encoding='gb18030', header=None)
+    fit_ves = np.array(fit_ves)[:,0].tolist()
+
     # Rcombine = RawR[i]
 
     # print(RawR_cam[i][0])
-    VIS = list(RawR_cam[i][0])
-    VIS.pop(8)
+    # VIS = list(RawR_cam[i][0])
+    VIS=fit_vis
+    if len(VIS)>8:
+        VIS.pop(8)
     MAX_VIS = max(VIS)
     position_vis = VIS.index(MAX_VIS)
     # position = position_vis
 
     VES = list(RawR_ves[i].T[0])
-    VES.pop(8)
+    VES=fit_ves
+    if len(VES) > 8:
+        VES.pop(8)
     MAX_VES = max(VES)
     position_ves = VES.index(MAX_VES)
 
     fit_all = np.array(fit_all)
     fit_all = list(fit_all[:, position_vis])
     # Rcombine = list(Rcombine[:, position_vis])
-    fit_all.pop(8)
+    if len(fit_all) > 8:
+        fit_all.pop(8)
     # Rcombine.pop(8)
 
     # temp_ves = [0, 0, 0, 0, 0, 0, 0, 0]
@@ -177,10 +190,10 @@ for i in range(len(selected_neurons)):
         count_0 += 1
         for k in range(len(mean_combine_0)):
             mean_combine_0[k]=mean_combine_0[k]+fit_all[k]/MAX_VIS
-        print(i,MAX_VIS)
-        print(VES)
-        print(fit_all)
-        print(fit_all / MAX_VIS)
+        # print(i,MAX_VIS)
+        # print(VES)
+        # print(fit_all)
+        # print(fit_all / MAX_VIS)
         # mean_combine_0 = [(fit_all[j] / MAX_VIS + mean_combine_0[j]) for j in range(9)]
         # mean_combine_0 = [(Rcombine[j]/MAX_VIS + mean_combine_0[j]) for j in range(9)]
 
@@ -195,12 +208,12 @@ for i in range(len(selected_neurons)):
     # print(mean_combine_0)
     # print(count_1)
     # print(mean_combine_1)
-    plt.plot(VEST,VES)
-    plt.plot(VEST,fit_all)
-    plt.plot(VEST, [MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS])
-    # plt.plot(VEST,[1,1,1,1,1,1,1,1,1])
-    plt.legend(["realVes", "fitCombine", "maxVis"])
-    plt.show()
+    # plt.plot(VEST,VES)
+    # plt.plot(VEST,fit_all)
+    # plt.plot(VEST, [MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS, MAX_VIS])
+    # # plt.plot(VEST,[1,1,1,1,1,1,1,1,1])
+    # plt.legend(["realVes", "fitCombine", "maxVis"])
+    # plt.show()
 print(count_0)
 print(count_1)
 mean_combine_0 = [mean_combine_0[i] / count_0 for i in range(9)]
