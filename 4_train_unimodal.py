@@ -84,7 +84,8 @@ def data_write(file_path, datas):
 
     f.save(file_path)  # 保存文件
 
-SIZE=158
+SIZE=200
+rate=0.3
 def init():
     files_para = './data/ForNorData_MSTd/'
     files_r = './data/AllData_MSTd/AllData/'
@@ -118,6 +119,7 @@ def init():
         # RawR.append(temp_file['resp_conflict_200'])
         RawR_cam.append(temp_file['resp_vis'])
         RawR_ves.append(temp_file['resp_ves'])
+    SIZE=len(RawR_trial)
     vest_resp=RawR_ves
     vis_resp=RawR_cam
     vest_a = [i + 360 if i < 0 else i for i in np.ravel(vest_a)]
@@ -251,7 +253,7 @@ def init():
     corr_list = [(np.triu(np.corrcoef([i.ravel() for i in RawR_trial[n]])).sum() - RawR_trial[n].shape[0]) / comb(
         RawR_trial[n].shape[0], 2) for n in range(SIZE)]
     selected_neurons = [i for i in range(SIZE) if
-                        corr_list[i] > 0.4]  # select good neurons: correlation between trials over 0.4
+                        corr_list[i] > rate]  # select good neurons: correlation between trials over 0.4
     S_vest_m = S_vest_m[selected_neurons]
     S_vis_m = S_vis_m[selected_neurons]
     Rmax_m = np.array(Rmax_m)[selected_neurons]

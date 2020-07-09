@@ -9,7 +9,7 @@ import time
 from scipy.special import comb
 import xlwt
 import xlrd
-SIZE=158
+SIZE=200
 def read(path):
     book = xlrd.open_workbook(path)
     sheet1 = book.sheets()[0]
@@ -45,11 +45,12 @@ for f in both_azimuth_files:
     RawR_trial.append(temp_file['resp_trial_conflict'])
     RawR.append(temp_file['resp_conflict'])
     RawR_cam.append(temp_file['resp_ves'])
+SIZE=len(RawR_trial)
 corr_list = [(np.triu(np.corrcoef([i.ravel() for i in RawR_trial[n]])).sum() - RawR_trial[n].shape[0]) / comb(
     RawR_trial[n].shape[0], 2) for n in range(SIZE)]
 global selected_neurons
 selected_neurons = [i for i in range(SIZE) if
-                    corr_list[i] > 0.4]
+                    corr_list[i] > 0.5]
 RawR = np.array(RawR)[selected_neurons]
 RawR_trial = np.array(RawR_trial)[selected_neurons]
 RawR_cam=np.array(RawR_cam)[selected_neurons]

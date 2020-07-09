@@ -9,7 +9,8 @@ import time
 from scipy.special import comb
 import xlwt
 import xlrd
-SIZE=158
+SIZE=200
+rate=0.45
 def read(path):
     book = xlrd.open_workbook(path)
     sheet1 = book.sheets()[0]
@@ -41,15 +42,18 @@ global vest_a, vis_a, vest_e, vis_e, n1, n2, n3, e, c_vest, c_vis, n0, \
 RawR = []  # firing curve, mean of neuron responses under different stimulus conditions, 就是我们最后要fit的y值（平均数）
 RawR_trial = []  # neuron responses under different stimulus conditions, 就是我们最后要fit的y值（实际trial的y值）
 for f in both_azimuth_files:
+
+
     temp_file = format_matfile(files_r + 'SmoothData_' + f[:-15] + '.mat', 'CueConflictDataSmooth')
     RawR_trial.append(temp_file['resp_trial_conflict'])
     RawR.append(temp_file['resp_conflict'])
-
+SIZE=len(RawR_trial)
 corr_list = [(np.triu(np.corrcoef([i.ravel() for i in RawR_trial[n]])).sum() - RawR_trial[n].shape[0]) / comb(
-    RawR_trial[n].shape[0], 2) for n in range(SIZE)]
-global selected_neurons
+        RawR_trial[n].shape[0], 2) for n in range(SIZE)]
 selected_neurons = [i for i in range(SIZE) if
-                    corr_list[i] > 0.4]
+                        corr_list[i] > rate]  # select good neurons: correlation between trials over 0.4
+print(selected_neurons)
+print(len(selected_neurons))
 RawR = np.array(RawR)[selected_neurons]
 RawR_trial = np.array(RawR_trial)[selected_neurons]
 # selected_neurons=list(range(200))

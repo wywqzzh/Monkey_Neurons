@@ -82,7 +82,8 @@ def data_write(file_path, datas):
         sheet1.write(0, i, datas[i])
     f.save(file_path)  # 保存文件
 
-SIZE=158
+SIZE=200
+rate=0.4
 def init():
     files_para = './data/ForNorData_MSTd/'
     files_r = './data/AllData_MSTd/AllData/'
@@ -109,7 +110,7 @@ def init():
         RawR_trial.append(temp_file['resp_trial_conflict'])
         vis_resp.append(temp_file['resp_vis'])
         vest_resp.append(temp_file['resp_ves'])
-
+    SIZE=len(RawR_trial)
     vest_a = [i + 360 if i < 0 else i for i in np.ravel(vest_a)]
     vis_a = [i + 360 if i < 0 else i for i in np.ravel(vis_a)]
 
@@ -193,7 +194,7 @@ def init():
     corr_list = [(np.triu(np.corrcoef([i.ravel() for i in RawR_trial[n]])).sum() - RawR_trial[n].shape[0]) / comb(
         RawR_trial[n].shape[0], 2) for n in range(SIZE)]
     selected_neurons = [i for i in range(SIZE) if
-                        corr_list[i] > 0.4]  # select good neurons: correlation between trials over 0.4
+                        corr_list[i] > rate]  # select good neurons: correlation between trials over 0.4
     S_vest_m = S_vest_m[selected_neurons]
     S_vis_m = S_vis_m[selected_neurons]
     Rmax_m = np.array(Rmax_m)[selected_neurons]
@@ -206,7 +207,11 @@ def init():
     S_vest_m = S_vest_m
     S_vis_m = S_vis_m
 
-
+    path = './result/vis/'
+    for i in os.listdir(path):
+        path_file = os.path.join(path, i)
+        if os.path.isfile(path_file):
+            os.remove(path_file)
 
     current_vect=np.array(read())
 

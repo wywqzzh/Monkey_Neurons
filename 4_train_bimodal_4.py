@@ -76,6 +76,7 @@ def data_write(file_path, datas):
     f.save(file_path)  # 保存文件
 
 SIZE=158
+rate=0.4
 def init():
     files_para = './data/ForNorData_MSTd/'
     files_r = './data/AllData_MSTd/AllData/'
@@ -99,9 +100,7 @@ def init():
     vis_resp = []
     index=[]
     for f in both_azimuth_files:
-        print(files_para+f)
         temp_file = format_matfile(files_para + f, 'ForNorData')
-        print(temp_file)
         vest_a.append(temp_file['vest_Direc'])
         vis_a.append(temp_file['vis_Direc'])
         index.append(files_r + f[:-15])
@@ -110,6 +109,7 @@ def init():
         RawR.append(temp_file['resp_conflict'])
         vest_resp.append(temp_file['resp_ves'])
         vis_resp.append(temp_file['resp_vis'])
+    SIZE=len(RawR_trial)
     vest_a = [i + 360 if i < 0 else i for i in np.ravel(vest_a)]
     vis_a = [i + 360 if i < 0 else i for i in np.ravel(vis_a)]
 
@@ -143,8 +143,8 @@ def init():
     corr_list = [(np.triu(np.corrcoef([i.ravel() for i in RawR_trial[n]])).sum() - RawR_trial[n].shape[0]) / comb(
         RawR_trial[n].shape[0], 2) for n in range(SIZE)]
     selected_neurons = [i for i in range(SIZE) if
-                        corr_list[i] > 0.4]  # select good neurons: correlation between trials over 0.4
-
+                        corr_list[i] > rate]  # select good neurons: correlation between trials over 0.4
+    print(len(selected_neurons))
     S_vest_m = S_vest_m[selected_neurons]
     S_vis_m = S_vis_m[selected_neurons]
     Rmax_m=Rmax_m[selected_neurons]

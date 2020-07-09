@@ -80,8 +80,9 @@ def data_write(file_path, datas):
         i = i + 1
 
     f.save(file_path)  # 保存文件
-
-SIZE=158
+global SIZE
+SIZE=200
+rate=0.4
 def init():
     files_para = './data/ForNorData_MSTd/'
     files_r = './data/AllData_MSTd/AllData/'
@@ -113,6 +114,7 @@ def init():
         RawR.append(temp_file['resp_conflict'])
         vest_resp.append(temp_file['resp_ves'])
         vis_resp.append(temp_file['resp_vis'])
+    SIZE=len(RawR_trial)
         # temp_file = format_matfile(files_r + f[:-15] + '.mat', 'CueConflictData')
         # RawR_trial.append(temp_file['resp_trial_conflict_200'])
         # RawR.append(temp_file['resp_conflict_200'])
@@ -146,14 +148,14 @@ def init():
             S_vis = spherical_sinusoid(vis_stim_az, vis_a, vis_stim_ele, vis_e, c_vis, n0)
             S_vis_m[:, k, j] = S_vis
 
-
+    global selected_neurons
     corr_list = [(np.triu(np.corrcoef([i.ravel() for i in RawR_trial[n]])).sum() - RawR_trial[n].shape[0]) / comb(
         RawR_trial[n].shape[0], 2) for n in range(SIZE)]
-    global selected_neurons
     selected_neurons = [i for i in range(SIZE) if
-                        corr_list[i] > 0.4]  # select good neurons: correlation between trials over 0.4
+                        corr_list[i] > rate]  # select good neurons: correlation between trials over 0.4
     # global  selected_neurons
     # selected_neurons=list(range(200))
+    print(len(selected_neurons))
     S_vest_m=S_vest_m[selected_neurons]
     S_vis_m = S_vis_m[selected_neurons]
     Rmax_m=Rmax_m[selected_neurons]
@@ -166,7 +168,11 @@ def init():
     S_vis_m = S_vis_m
     current_vect=np.array(read())
 
-
+    path='./result/all/'
+    for i in os.listdir(path):
+        path_file = os.path.join(path, i)
+        if os.path.isfile(path_file):
+            os.remove(path_file)
     rs=calculate_R(current_vect)
     for i in range(len(selected_neurons)):
         path='./result/all/'+str(i)+'.xls'

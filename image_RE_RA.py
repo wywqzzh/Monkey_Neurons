@@ -170,15 +170,16 @@ def image3(RawR,RawR_cam,RawR_ves):
     path3=pathx+'/RE_RA_ves.jpg'
     plt.savefig(path3, dpi=600)
     plt.show()
-for i in range(60):
+SIZE=99
+for i in range(SIZE):
     path='./result/all/'+str(i)+'.xls'
     u=read(path)
     RawR.append(u)
-for i in range(60):
+for i in range(SIZE):
     path = './result/vis/' + str(i) + '.xls'
     u=read(path)
     RawR_cam.append(u)
-for i in range(60):
+for i in range(SIZE):
     path = './result/ves/' + str(i) + '.xls'
     u=read(path)
     RawR_ves.append(u)

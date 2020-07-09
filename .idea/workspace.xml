@@ -1,7 +1,582 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ConsiderCoherence/neuronsNumber.py" line="156" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63d68308-271a-4d44-b96f-866be3c6c081" name="Default Changelist" comment="" />
+    <list default="true" id="63d68308-271a-4d44-b96f-866be3c6c081" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4_train_bimodal_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_train_unimodal_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4calculate_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4calculate_ves_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4calculate_vis_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_train_bimodal_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5calculate_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/4_train_bimodal_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/4_train_unimodal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/4calculate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/4calculate_ves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/4calculate_vis.py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/CoherenceSelect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/R_square_bimodal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/R_square_unimodal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/image_RE_RA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/image_bimodals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/image_unimodls_ves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/image_unimodls_vis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsiderCoherence/neuronsNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_bimodals_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_unimodls_ves_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_unimodls_vis_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuronsNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_train_bimodal_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_train_bimodal_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_train_unimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_train_unimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/4calculate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4calculate_ves.py" beforeDir="false" afterPath="$PROJECT_DIR$/4calculate_ves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4calculate_vis.py.py" beforeDir="false" afterPath="$PROJECT_DIR$/4calculate_vis.py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c105r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c108r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c111r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c112r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c115r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c116r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c117r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c118r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c119r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c120r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c121r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c122r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c123r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c125r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c127r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c132r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c133r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c134r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c135r4ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c137r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c138r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c139r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c140r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c141r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c142r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c143r3ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c26r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c27r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c29r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c38r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c47r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c55r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c57r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c59r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c59r1ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c61r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c61r1ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c63r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c63r1ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c65r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c67r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c69r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c71r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c73r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c73r1ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c75r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c78r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c78r1ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c81r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c84r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c91r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c92r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c97r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m11c99r1ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c195r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c196r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c196r2ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c197r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c197r3ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c198r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c199r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c200r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c201r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c202r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c203r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c204r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c205r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c206r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c208r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c209r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c210r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c213r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c214r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c215r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c219r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c219r2ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c224r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c224r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c224r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c224r2ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c227r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c228r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c228r1ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c228r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c228r2ch3_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m19c231r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c107r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c122r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c123r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c125r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c36r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c37r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c44r1ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c48r4ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c73r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m1c74r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c100r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c103r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c105r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c106r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c107r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c111r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c112r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c115r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c117r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c118r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c121r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c125r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c127r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c128r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c128r2ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c129r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c130r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c131r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c133r2ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c135r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c136r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c137r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c147r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c147r2ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c148r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c149r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c150r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c151r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c152r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c153r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c154r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c155r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c156r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c157r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c160r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c161r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c162r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c162r2ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c163r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c164r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c165r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c166r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c167r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c168r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c169r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c170r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c171r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c178r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c179r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c180r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c181r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c182r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c183r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c184r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c185r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c186r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c188r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c189r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c191r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c192r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c193r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c194r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c195r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c199r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c200r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c201r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c202r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c203r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c204r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c205r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c206r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c207r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c208r2ch1_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c46r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c47r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c49r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c52r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c53r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c54r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c55r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c57r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c57r2ch6_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c57r2ch7_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c63r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c67r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c75r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c76r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c78r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c79r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c80r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c81r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c82r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c83r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c84r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c85r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c88r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c89r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c90r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c92r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c93r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c94r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c95r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c97r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ForNor_VPS/m2c99r2ch5_ForNorData.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_RE_RA.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_RE_RA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_unimodls_ves.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_unimodls_ves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_unimodls_vis.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_unimodls_vis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/RE_RA4.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/RE_RA4.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/0.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/0.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/1.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/10.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/10.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/100.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/100.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/101.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/101.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/102.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/103.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/104.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/105.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/106.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/107.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/108.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/11.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/11.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/12.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/12.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/13.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/13.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/14.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/14.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/15.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/15.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/16.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/16.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/17.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/17.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/18.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/18.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/19.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/19.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/2.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/20.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/20.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/21.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/21.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/22.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/22.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/23.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/23.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/24.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/24.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/25.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/25.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/26.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/26.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/27.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/27.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/28.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/28.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/29.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/29.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/3.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/3.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/30.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/30.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/31.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/31.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/32.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/32.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/33.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/33.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/34.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/34.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/35.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/35.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/36.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/36.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/37.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/37.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/38.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/38.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/39.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/39.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/4.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/4.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/40.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/40.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/41.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/41.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/42.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/42.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/43.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/43.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/44.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/44.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/45.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/45.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/46.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/46.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/47.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/47.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/48.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/48.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/49.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/49.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/5.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/5.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/50.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/50.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/51.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/51.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/52.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/52.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/53.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/53.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/54.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/54.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/55.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/55.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/56.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/56.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/57.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/57.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/58.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/58.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/59.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/59.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/6.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/6.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/60.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/60.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/61.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/61.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/62.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/62.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/63.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/63.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/64.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/64.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/65.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/65.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/66.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/66.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/67.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/67.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/68.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/68.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/69.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/69.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/7.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/7.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/70.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/70.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/71.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/71.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/72.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/72.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/73.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/73.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/74.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/74.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/75.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/75.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/76.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/76.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/77.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/77.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/78.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/78.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/79.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/79.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/8.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/8.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/80.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/80.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/81.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/81.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/82.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/82.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/83.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/83.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/84.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/84.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/85.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/85.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/86.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/86.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/87.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/87.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/88.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/88.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/89.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/89.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/9.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/9.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/90.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/90.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/91.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/91.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/92.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/92.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/93.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/93.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/94.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/94.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/95.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/95.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/96.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/96.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/97.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/97.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/98.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/98.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/all/99.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/all/99.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/image/RE_RA_all.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result/image/RE_RA_all.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/image/RE_RA_ves.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result/image/RE_RA_ves.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/image/RE_RA_vis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result/image/RE_RA_vis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/image/sum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result/image/sum.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/image/ves.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result/image/ves.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/image/vis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result/image/vis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/0.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/0.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/1.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/10.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/10.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/100.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/100.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/101.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/101.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/102.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/102.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/103.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/103.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/104.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/104.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/105.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/105.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/106.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/106.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/107.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/107.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/108.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/108.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/11.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/11.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/12.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/12.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/13.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/13.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/14.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/14.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/15.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/15.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/16.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/16.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/17.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/17.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/18.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/18.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/19.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/19.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/2.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/20.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/20.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/21.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/21.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/22.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/22.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/23.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/23.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/24.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/24.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/25.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/25.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/26.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/26.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/27.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/27.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/28.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/28.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/29.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/29.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/3.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/3.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/30.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/30.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/31.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/31.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/32.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/32.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/33.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/33.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/34.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/34.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/35.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/35.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/36.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/36.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/37.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/37.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/38.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/38.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/39.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/39.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/4.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/4.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/40.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/40.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/41.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/41.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/42.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/42.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/43.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/43.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/44.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/44.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/45.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/45.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/46.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/46.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/47.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/47.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/48.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/48.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/49.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/49.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/5.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/5.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/50.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/50.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/51.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/51.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/52.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/52.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/53.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/53.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/54.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/54.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/55.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/55.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/56.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/56.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/57.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/57.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/58.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/58.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/59.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/59.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/6.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/6.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/60.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/60.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/61.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/61.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/62.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/62.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/63.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/63.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/64.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/64.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/65.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/65.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/66.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/66.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/67.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/67.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/68.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/68.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/69.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/69.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/7.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/7.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/70.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/70.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/71.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/71.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/72.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/72.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/73.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/73.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/74.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/74.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/75.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/75.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/76.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/76.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/77.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/77.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/78.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/78.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/79.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/79.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/8.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/8.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/80.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/80.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/81.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/81.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/82.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/82.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/83.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/83.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/84.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/84.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/85.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/85.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/86.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/86.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/87.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/87.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/88.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/88.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/89.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/89.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/9.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/9.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/90.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/90.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/91.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/91.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/92.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/92.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/93.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/93.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/94.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/94.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/95.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/95.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/96.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/96.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/97.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/97.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/98.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/98.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ves/99.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/ves/99.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/0.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/0.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/1.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/10.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/10.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/100.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/100.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/101.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/101.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/102.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/102.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/103.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/103.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/104.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/104.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/105.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/105.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/106.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/106.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/107.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/107.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/108.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/108.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/11.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/11.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/12.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/12.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/13.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/13.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/14.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/14.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/15.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/15.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/16.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/16.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/17.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/17.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/18.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/18.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/19.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/19.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/2.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/20.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/20.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/21.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/21.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/22.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/22.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/23.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/23.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/24.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/24.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/25.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/25.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/26.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/26.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/27.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/27.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/28.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/28.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/29.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/29.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/3.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/3.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/30.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/30.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/31.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/31.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/32.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/32.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/33.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/33.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/34.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/34.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/35.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/35.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/36.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/36.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/37.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/37.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/38.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/38.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/39.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/39.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/4.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/4.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/40.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/40.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/41.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/41.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/42.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/42.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/43.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/43.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/44.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/44.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/45.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/45.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/46.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/46.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/47.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/47.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/48.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/48.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/49.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/49.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/5.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/5.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/50.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/50.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/51.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/51.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/52.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/52.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/53.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/53.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/54.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/54.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/55.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/55.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/56.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/56.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/57.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/57.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/58.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/58.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/59.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/59.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/6.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/6.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/60.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/60.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/61.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/61.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/62.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/62.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/63.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/63.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/64.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/64.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/65.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/65.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/66.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/66.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/67.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/67.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/68.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/68.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/69.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/69.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/7.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/7.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/70.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/70.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/71.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/71.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/72.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/72.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/73.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/73.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/74.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/74.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/75.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/75.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/76.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/76.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/77.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/77.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/78.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/78.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/79.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/79.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/8.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/8.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/80.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/80.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/81.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/81.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/82.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/82.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/83.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/83.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/84.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/84.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/85.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/85.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/86.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/86.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/87.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/87.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/88.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/88.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/89.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/89.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/9.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/9.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/90.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/90.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/91.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/91.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/92.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/92.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/93.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/93.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/94.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/94.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/95.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/95.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/96.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/96.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/97.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/97.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/98.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/98.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/vis/99.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/vis/99.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/参数4_nobound_bimodal.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/参数4_nobound_bimodal.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/参数4_nobound_unimodal.xls" beforeDir="false" afterPath="$PROJECT_DIR$/result/参数4_nobound_unimodal.xls" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +600,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_unimodls_ves.py">
+        <entry file="file://$PROJECT_DIR$/H_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+            <state relative-caret-position="246">
+              <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#3739#3756#0" />
+                <element signature="e#4411#4453#0" />
+                <element signature="e#4799#4815#0" />
+                <element signature="e#5151#5179#0" />
+                <element signature="e#5475#5556#0" />
+                <element signature="e#5831#5912#0" />
+                <element signature="e#6006#6022#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_bimodals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="e#21#39#0" expanded="true" />
               </folding>
@@ -37,55 +631,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_unimodls_vis.py">
+        <entry file="file://$PROJECT_DIR$/4_train_unimodal_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R_square_bimodal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-              <folding>
-                <element signature="e#22#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R_square_unimodal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <element signature="e#23#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4_train_bimodal_4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4800">
-              <caret line="168" column="44" selection-start-line="168" selection-start-column="44" selection-end-line="168" selection-end-column="44" />
-              <folding>
-                <element signature="e#20#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_RE_RA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6060">
-              <caret line="210" column="25" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="25" />
+            <state relative-caret-position="8460">
+              <caret line="290" column="44" selection-start-line="290" selection-start-column="44" selection-end-line="290" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -93,8 +642,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4_train_unimodal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7890">
-              <caret line="271" column="49" selection-start-line="271" selection-start-column="49" selection-end-line="271" selection-end-column="49" />
+            <state relative-caret-position="2400">
+              <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
               <folding>
                 <element signature="e#14#32#0" expanded="true" />
               </folding>
@@ -102,23 +651,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4calculate.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_bimodals_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
-              <folding>
-                <element signature="e#16#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2250">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4calculate_ves.py">
+        <entry file="file://$PROJECT_DIR$/4_train_bimodal_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3870">
-              <caret line="138" column="19" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="19" />
+            <state relative-caret-position="576">
+              <caret line="190" column="44" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="44" />
+              <folding>
+                <element signature="e#20#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_train_bimodal_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3180">
+              <caret line="106" column="101" lean-forward="true" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
               <folding>
                 <element signature="e#20#38#0" expanded="true" />
               </folding>
@@ -127,10 +685,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4calculate_vis.py.py">
+        <entry file="file://$PROJECT_DIR$/4calculate_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6180">
-              <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
+            <state relative-caret-position="5250">
+              <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -146,36 +704,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>files_para</find>
-      <find>spherical_sinusoid</find>
-      <find>vest_a</find>
-      <find>vest_stim_az</find>
-      <find>vest_stim_ele</find>
-      <find>vest_e</find>
-      <find>format_matfile</find>
-      <find>ValueError: Mat 4 mopt wrong format, byteswapping problem?</find>
-      <find>files_r</find>
-      <find>save</find>
-      <find>9</find>
-      <find>glo</find>
-      <find>both_azimuth_files</find>
-      <find>RawR</find>
-      <find>e</find>
-      <find>np.random</find>
-      <find>Rmax_m</find>
       <find>vis_resp</find>
       <find>n3</find>
       <find>OriginalData</find>
       <find>shunxu</find>
       <find>Rmax</find>
-      <find>SIZE</find>
       <find>selected_neurons</find>
       <find>test3</find>
       <find>200</find>
       <find>image</find>
       <find>ves</find>
-      <find>print</find>
       <find>path</find>
+      <find>m16c102r2ch1</find>
+      <find>SIZE</find>
+      <find>MSTd</find>
+      <find>VPS</find>
+      <find>4</find>
+      <find>0.4</find>
+      <find>lege</find>
+      <find>VEST</find>
+      <find>360</find>
+      <find>RawR_trial</find>
+      <find>vest_resp</find>
+      <find>expand_dimension</find>
+      <find>RawR</find>
+      <find>9</find>
+      <find>nordiv_Bin</find>
+      <find>calculate_R</find>
+      <find>optimize_f</find>
+      <find>position</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,31 +743,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/image2/calculate_cam.py" />
-        <option value="$PROJECT_DIR$/image2/test4.py" />
-        <option value="$PROJECT_DIR$/test_9_11.py" />
-        <option value="$PROJECT_DIR$/test_11_9.py" />
-        <option value="$PROJECT_DIR$/test3.py" />
-        <option value="$PROJECT_DIR$/venv/ave_parameter.py" />
-        <option value="$PROJECT_DIR$/venv/R_square_unimodal.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/test5.py" />
-        <option value="$PROJECT_DIR$/test6.py" />
-        <option value="$PROJECT_DIR$/test7.py" />
-        <option value="$PROJECT_DIR$/hehe.py" />
-        <option value="$PROJECT_DIR$/test9.py" />
-        <option value="$PROJECT_DIR$/image_1_9.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/test8.py" />
-        <option value="$PROJECT_DIR$/test4.py" />
-        <option value="$PROJECT_DIR$/linear.py" />
-        <option value="$PROJECT_DIR$/new_RE_RA.py" />
-        <option value="$PROJECT_DIR$/venv/test10_6_bimodal.py" />
-        <option value="$PROJECT_DIR$/calculate2.py" />
-        <option value="$PROJECT_DIR$/calculate2_cam.py" />
-        <option value="$PROJECT_DIR$/calculate2_ves.py" />
-        <option value="$PROJECT_DIR$/color.py" />
-        <option value="$PROJECT_DIR$/test11_6_unimodal.py" />
         <option value="$PROJECT_DIR$/yeyeyeyeyeye.py" />
         <option value="$PROJECT_DIR$/yeyeyeyeye.py" />
         <option value="$PROJECT_DIR$/train_bimodal.py" />
@@ -225,29 +758,57 @@
         <option value="$PROJECT_DIR$/sad.py" />
         <option value="$PROJECT_DIR$/sad2.py" />
         <option value="$PROJECT_DIR$/image_fit.py" />
+        <option value="$PROJECT_DIR$/R_square_bimodal.py" />
+        <option value="$PROJECT_DIR$/R_square_unimodal.py" />
+        <option value="$PROJECT_DIR$/venv/CoherenceSelect.py" />
+        <option value="$PROJECT_DIR$/CoherenceSelect.py" />
+        <option value="$PROJECT_DIR$/data/Coherence.txt" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/CoherenceSelect.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/R_square_bimodal.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/R_square_unimodal.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/4_train_bimodal_4.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/4_train_unimodal.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/4calculate.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/4calculate_ves.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/4calculate_vis.py.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/image_bimodals.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/image_RE_RA.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/image_unimodls_ves.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/image_unimodls_vis.py" />
+        <option value="$PROJECT_DIR$/ConsiderCoherence/neuronsNumber.py" />
+        <option value="$PROJECT_DIR$/image_RE_RA.py" />
+        <option value="$PROJECT_DIR$/neuronsNumber.py" />
+        <option value="$PROJECT_DIR$/4_train_unimodal.py" />
+        <option value="$PROJECT_DIR$/4_train_unimodal_8.py" />
         <option value="$PROJECT_DIR$/4calculate.py" />
         <option value="$PROJECT_DIR$/4calculate_vis.py.py" />
         <option value="$PROJECT_DIR$/4calculate_ves.py" />
-        <option value="$PROJECT_DIR$/image_bimodals.py" />
-        <option value="$PROJECT_DIR$/image_RE_RA.py" />
-        <option value="$PROJECT_DIR$/image_unimodls_ves.py" />
+        <option value="$PROJECT_DIR$/4calculate_ves_8.py" />
+        <option value="$PROJECT_DIR$/4calculate_vis_8.py" />
         <option value="$PROJECT_DIR$/image_unimodls_vis.py" />
-        <option value="$PROJECT_DIR$/R_square_bimodal.py" />
-        <option value="$PROJECT_DIR$/R_square_unimodal.py" />
+        <option value="$PROJECT_DIR$/image_unimodls_ves.py" />
+        <option value="$PROJECT_DIR$/5_train_bimodal_8.py" />
+        <option value="$PROJECT_DIR$/5calculate_8.py" />
         <option value="$PROJECT_DIR$/4_train_bimodal_4.py" />
-        <option value="$PROJECT_DIR$/4_train_unimodal.py" />
+        <option value="$PROJECT_DIR$/4_train_bimodal_8.py" />
+        <option value="$PROJECT_DIR$/4calculate_8.py" />
+        <option value="$PROJECT_DIR$/image_bimodals.py" />
+        <option value="$PROJECT_DIR$/H_image.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="y" value="1" />
-    <option name="width" value="1932" />
-    <option name="height" value="1046" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1905" />
+    <option name="y" value="-14" />
+    <option name="width" value="1946" />
+    <option name="height" value="2114" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -278,14 +839,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\76774\Desktop\my_RSA\Monkey" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\76774\Desktop\Monkey_Neurons\ConsiderCoherence" />
+      <recent name="C:\Users\76774\Desktop\Monkey_Neurons" />
       <recent name="F:\workspace\pycharm_project\untitled1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\76774\Desktop\Monkey_Neurons" />
+      <recent name="C:\Users\76774\Desktop\Monkey_Neurons\ConsiderCoherence" />
+      <recent name="C:\Users\76774\Desktop\my_RSA\Monkey" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,8 +865,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.R_square_unimodal">
-    <configuration name="R_square_bimodal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.image_bimodals">
+    <configuration name="4_train_bimodal_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,7 +879,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/R_square_bimodal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_train_bimodal_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +888,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="R_square_unimodal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4calculate_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,7 +901,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/R_square_unimodal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4calculate_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,7 +910,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image_RE_RA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="H_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,7 +923,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_RE_RA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/H_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,7 +932,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image_unimodls_ves" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="image_bimodals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,7 +945,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_unimodls_ves.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_bimodals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,7 +954,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image_unimodls_vis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="image_bimodals_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -402,7 +967,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_unimodls_vis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_bimodals_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,11 +978,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.R_square_unimodal" />
-        <item itemvalue="Python.R_square_bimodal" />
-        <item itemvalue="Python.image_unimodls_vis" />
-        <item itemvalue="Python.image_unimodls_ves" />
-        <item itemvalue="Python.image_RE_RA" />
+        <item itemvalue="Python.image_bimodals" />
+        <item itemvalue="Python.H_image" />
+        <item itemvalue="Python.4calculate_8" />
+        <item itemvalue="Python.4_train_bimodal_8" />
+        <item itemvalue="Python.image_bimodals_8" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +1071,31 @@
       <workItem from="1591067253523" duration="3382000" />
       <workItem from="1591072642577" duration="52000" />
       <workItem from="1591072732661" duration="625000" />
-      <workItem from="1591078377997" duration="34000" />
+      <workItem from="1591078377997" duration="692000" />
+      <workItem from="1591256687605" duration="40000" />
+      <workItem from="1591257093505" duration="598000" />
+      <workItem from="1591328665823" duration="1338000" />
+      <workItem from="1591330028679" duration="5249000" />
+      <workItem from="1591346710193" duration="1635000" />
+      <workItem from="1591524437781" duration="7000" />
+      <workItem from="1592275141768" duration="1331000" />
+      <workItem from="1592301826546" duration="2807000" />
+      <workItem from="1592349636027" duration="3544000" />
+      <workItem from="1592358145925" duration="288000" />
+      <workItem from="1592467039709" duration="513000" />
+      <workItem from="1592713187293" duration="646000" />
+      <workItem from="1592909418305" duration="5517000" />
+      <workItem from="1592954252743" duration="15859000" />
+      <workItem from="1593091280872" duration="289000" />
+      <workItem from="1593163341835" duration="4286000" />
+      <workItem from="1593170961516" duration="1413000" />
+      <workItem from="1593225170060" duration="593000" />
+      <workItem from="1593415651280" duration="1151000" />
+      <workItem from="1594194446409" duration="13360000" />
+      <workItem from="1594213604514" duration="596000" />
+      <workItem from="1594249515229" duration="8328000" />
+      <workItem from="1594274652388" duration="17281000" />
+      <workItem from="1594298090815" duration="309000" />
     </task>
     <servers />
   </component>
@@ -525,7 +1114,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264457000" />
+    <option name="totallyTimeSpent" value="352093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,14 +1126,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1539535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626067" weight="0.25813448" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626067" weight="0.27695167" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49946582" weight="0.32894737" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5037393" side_tool="true" weight="0.26206142" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32806692" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.49679488" weight="0.25743493" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.57813954" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32976744" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626067" visible="true" weight="0.25813448" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49946582" weight="0.32894737" />
@@ -561,30 +1174,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.26652452" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49626067" visible="true" weight="0.25893825" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49946582" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5037393" side_tool="true" weight="0.26206142" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.49679488" weight="0.33333334" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.26652452" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,16 +1183,43 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/4calculate_vis.py.py</url>
-          <line>179</line>
-          <option name="timeStamp" value="101" />
+          <url>file://$PROJECT_DIR$/ConsiderCoherence/4_train_unimodal.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/4calculate_vis.py.py</url>
-          <line>192</line>
-          <option name="timeStamp" value="102" />
+          <url>file://$PROJECT_DIR$/image_bimodals.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/4_train_bimodal_4.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/4_train_bimodal_8.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5_train_bimodal_8.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5calculate_8.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="198" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -615,6 +1231,9 @@
         <watch expression="RawR_ves" language="Python" />
         <watch expression="RawR" language="Python" />
         <watch expression="S_vis_m" language="Python" />
+        <watch expression="expand_alpha" language="Python" />
+        <watch expression="alpha" language="Python" />
+        <watch expression="normPool" language="Python" />
         <watch expression="L_neuron[52]" language="Python" />
         <watch expression="d_dimension(d_ves)" language="Python" />
         <watch expression="f[:-15]" language="Python" />
@@ -624,28 +1243,55 @@
         <watch expression="np.ravel(np.array(vest_resp)[:, k]" language="Python" />
         <watch expression="expand_dimension(d_vis)" language="Python" />
         <watch expression="expand_dimension(d_vis)*S_vis_m" language="Python" />
+        <watch expression="index.append(files_r + f[:-15]) " language="Python" />
+        <watch expression="f[:-15])" language="Python" />
+        <watch expression="RawR_trial[n].shape[0]" language="Python" />
+        <watch expression="RawR_trial" language="Python" />
+        <watch expression="RawR_trial" language="Python" />
+        <watch expression="VEST" language="Python" />
+        <watch expression="VES" language="Python" />
+        <watch expression="mean_combine_0" language="Python" />
+        <watch expression="mean_combine" language="Python" />
+        <watch expression="mean_combine_0" language="Python" />
+        <watch expression="fit" language="Python" />
+        <watch expression="fit_all" language="Python" />
+        <watch expression="current_vect" language="Python" />
+        <watch expression="alpha" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled1$linear.coverage" NAME="linear Coverage Results" MODIFIED="1563021090473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$image_unimodls_vis.coverage" NAME="image_unimodls_vis Coverage Results" MODIFIED="1594206287738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$image1.coverage" NAME="image1 Coverage Results" MODIFIED="1562401639468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4_train_unimodal.coverage" NAME="4_train_unimodal Coverage Results" MODIFIED="1594199334580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test10_6_bimodal.coverage" NAME="test10_6_bimodal Coverage Results" MODIFIED="1569293637096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$4calculate_vis_py.coverage" NAME="4calculate_vis.py Coverage Results" MODIFIED="1591072272258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$calculate_vest.coverage" NAME="calculate_vest Coverage Results" MODIFIED="1569319491672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$image_RE_RA.coverage" NAME="image_RE_RA Coverage Results" MODIFIED="1592965533630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$sad2.coverage" NAME="sad2 Coverage Results" MODIFIED="1591066678780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4_train_bimodal_8.coverage" NAME="4_train_bimodal_8 Coverage Results" MODIFIED="1594295531926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4calculate.coverage" NAME="4calculate Coverage Results" MODIFIED="1594281760923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$calculate2_cam.coverage" NAME="calculate2_cam Coverage Results" MODIFIED="1568104211999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$calculate_vest.coverage" NAME="calculate_vest Coverage Results" MODIFIED="1591065068518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$R_square.coverage" NAME="R_square Coverage Results" MODIFIED="1591065428403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$CoherenceSelect.coverage" NAME="CoherenceSelect Coverage Results" MODIFIED="1591330441415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$image_unimodls_ves.coverage" NAME="image_unimodls_ves Coverage Results" MODIFIED="1594206297422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$R_square.coverage" NAME="R_square Coverage Results" MODIFIED="1569319515136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$image_bimodals.coverage" NAME="image_bimodals Coverage Results" MODIFIED="1594296822957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4calculate_vis_py.coverage" NAME="4calculate_vis.py Coverage Results" MODIFIED="1594204433573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$5calculate_8.coverage" NAME="5calculate_8 Coverage Results" MODIFIED="1594289085726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$4calculate.coverage" NAME="4calculate Coverage Results" MODIFIED="1591072254036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4_train_bimodal_4__1_.coverage" NAME="4_train_bimodal_4 (1) Coverage Results" MODIFIED="1591333674550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$new_RE_RA.coverage" NAME="new_RE_RA Coverage Results" MODIFIED="1591066372588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$myadd.coverage" NAME="myadd Coverage Results" MODIFIED="1561771557375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$image_unimodls_ves.coverage" NAME="image_unimodls_ves Coverage Results" MODIFIED="1591072297382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$sad2.coverage" NAME="sad2 Coverage Results" MODIFIED="1563776217897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test7.coverage" NAME="test7 Coverage Results" MODIFIED="1562642227805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test11_6_unimodal.coverage" NAME="test11_6_unimodal Coverage Results" MODIFIED="1568182422429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4_train_unimodal_8.coverage" NAME="4_train_unimodal_8 Coverage Results" MODIFIED="1594205352934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test.coverage" NAME="test Coverage Results" MODIFIED="1562816407217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4calculate_ves.coverage" NAME="4calculate_ves Coverage Results" MODIFIED="1594204346769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$R_square_unimodal.coverage" NAME="R_square_unimodal Coverage Results" MODIFIED="1569320400605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1591064963191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1563005295710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -655,22 +1301,31 @@
     <SUITE FILE_PATH="coverage/Monkey$4_train_bimodal_4.coverage" NAME="4_train_bimodal_4 Coverage Results" MODIFIED="1591071141024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$myadd.coverage" NAME="myadd Coverage Results" MODIFIED="1591066347665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$pytest_in_test_11_9_py.coverage" NAME="pytest in test_11_9.py Coverage Results" MODIFIED="1562222648538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$R_square_bimodal.coverage" NAME="R_square_bimodal Coverage Results" MODIFIED="1591336200952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ConsiderCoherence" />
     <SUITE FILE_PATH="coverage/untitled1$test9.coverage" NAME="test9 Coverage Results" MODIFIED="1562888288917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$R_square_unimodal.coverage" NAME="R_square_unimodal Coverage Results" MODIFIED="1591336208701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ConsiderCoherence" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$neuronsNumber__1_.coverage" NAME="neuronsNumber (1) Coverage Results" MODIFIED="1593225333646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4calculate_vis_8.coverage" NAME="4calculate_vis_8 Coverage Results" MODIFIED="1594294995359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$image_fit.coverage" NAME="image_fit Coverage Results" MODIFIED="1563005996788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$image_unimodls_vis.coverage" NAME="image_unimodls_vis Coverage Results" MODIFIED="1591072303219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4calculate_8.coverage" NAME="4calculate_8 Coverage Results" MODIFIED="1594296445907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$image_fit.coverage" NAME="image_fit Coverage Results" MODIFIED="1591067717347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$yeyeyeyeyeye.coverage" NAME="yeyeyeyeyeye Coverage Results" MODIFIED="1569293934824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$image_1_9.coverage" NAME="image_1_9 Coverage Results" MODIFIED="1562928488065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1562222446263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$H_image.coverage" NAME="H_image Coverage Results" MODIFIED="1594296629541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$pytest_in_test_temp_py.coverage" NAME="pytest in test_temp.py Coverage Results" MODIFIED="1562051656734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$calculate_cam.coverage" NAME="calculate_cam Coverage Results" MODIFIED="1591065010871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test8.coverage" NAME="test8 Coverage Results" MODIFIED="1562982535597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4calculate_ves_8.coverage" NAME="4calculate_ves_8 Coverage Results" MODIFIED="1594205969177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1562414679558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$image_bimodals.coverage" NAME="image_bimodals Coverage Results" MODIFIED="1591072280901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$hehe.coverage" NAME="hehe Coverage Results" MODIFIED="1562849162385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$calculate2.coverage" NAME="calculate2 Coverage Results" MODIFIED="1568094351438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$calculate_cam.coverage" NAME="calculate_cam Coverage Results" MODIFIED="1569319474391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$neuronsNumber.coverage" NAME="neuronsNumber Coverage Results" MODIFIED="1594208529129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1562414815622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$5_train_bimodal_8.coverage" NAME="5_train_bimodal_8 Coverage Results" MODIFIED="1594285929956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$sad.coverage" NAME="sad Coverage Results" MODIFIED="1591066566440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$sad.coverage" NAME="sad Coverage Results" MODIFIED="1563777744576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$ave_parameter.coverage" NAME="ave_parameter Coverage Results" MODIFIED="1573448906944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -679,180 +1334,71 @@
     <SUITE FILE_PATH="coverage/Monkey$image_RE_RA.coverage" NAME="image_RE_RA Coverage Results" MODIFIED="1591072288794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$yeyeyeyeye.coverage" NAME="yeyeyeyeye Coverage Results" MODIFIED="1569293833122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$R_square_unimodal.coverage" NAME="R_square_unimodal Coverage Results" MODIFIED="1591072316621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$image_bimodals_8.coverage" NAME="image_bimodals_8 Coverage Results" MODIFIED="1594295130539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1562225336513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Python/Python36/Lib" />
     <SUITE FILE_PATH="coverage/untitled1$calculate2_ves.coverage" NAME="calculate2_ves Coverage Results" MODIFIED="1568104217961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$image1.coverage" NAME="image1 Coverage Results" MODIFIED="1591065574357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1562634795174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monkey$image_sum.coverage" NAME="image_sum Coverage Results" MODIFIED="1591067345388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monkey_Neurons$4_train_bimodal_4.coverage" NAME="4_train_bimodal_4 Coverage Results" MODIFIED="1594289194286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$1.coverage" NAME="1 Coverage Results" MODIFIED="1563062407283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$image_sum.coverage" NAME="image_sum Coverage Results" MODIFIED="1566020872776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>selected_neurons</expression-string>
+        <expression-string>normPool</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>expand_dimension(d_vis)*S_vis_m</expression-string>
+        <expression-string>alpha</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>expand_dimension(d_vis)</expression-string>
+        <expression-string>expand_alpha</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>expand_dimension(d_ves)*S_vest_m</expression-string>
+        <expression-string>xxx</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>expand_dimension(d_ves)</expression-string>
+        <expression-string>xlwt</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.ravel(np.array(vest_resp)[:, k]</expression-string>
+        <expression-string>current_vect</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Rmax_m</expression-string>
+        <expression-string>fit_all</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>files_r + f[:-15] + '.mat'</expression-string>
+        <expression-string>fit</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>f[:-15]</expression-string>
+        <expression-string>mean_combine_0</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>S_vis_m</expression-string>
+        <expression-string>mean_combine</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_9_11.py" />
-    <entry file="file://F:/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/ave_parameter.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1748021792/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="291" column="4" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52740">
-          <caret line="1758" selection-start-line="1758" selection-end-line="1758" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/test/image4/1_9.jpg" />
-    <entry file="file://F:/Python/Python36/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16110">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python36/Lib/site-packages/matplotlib/collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="856" selection-start-line="856" selection-end-line="856" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python36/Lib/site-packages/matplotlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="1588" selection-start-line="1588" selection-end-line="1588" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python36/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="4435" selection-start-line="4435" selection-end-line="4435" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/CompoundDoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python36/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75900">
-          <caret line="2530" selection-start-line="2530" selection-end-line="2530" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test3.py" />
-    <entry file="file://$PROJECT_DIR$/test5.py" />
-    <entry file="file://$PROJECT_DIR$/test6.py" />
-    <entry file="file://$PROJECT_DIR$/6_train_unimodal.py" />
-    <entry file="file://$PROJECT_DIR$/test9.py" />
-    <entry file="file://$PROJECT_DIR$/6_train_bimodal.py" />
-    <entry file="file://$PROJECT_DIR$/test2.py" />
-    <entry file="file://$PROJECT_DIR$/test4.py" />
-    <entry file="file://$PROJECT_DIR$/test8.py" />
-    <entry file="file://$PROJECT_DIR$/test7.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/6calculate.py" />
-    <entry file="file://$PROJECT_DIR$/6calculate_vis.py" />
-    <entry file="file://$PROJECT_DIR$/6calculate_ves.py" />
-    <entry file="file://$PROJECT_DIR$/hehe.py" />
-    <entry file="file://F:/Python/Python36/Lib/site-packages/scipy/io/matlab/mio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python36/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="2840" selection-start-line="2840" selection-end-line="2840" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear.py" />
-    <entry file="file://$PROJECT_DIR$/myadd.py" />
     <entry file="file://$PROJECT_DIR$/color.py" />
     <entry file="file://$PROJECT_DIR$/image1.py" />
     <entry file="file://$PROJECT_DIR$/image_1_9.py" />
@@ -860,36 +1406,36 @@
     <entry file="file://$PROJECT_DIR$/new_RE_RA.py" />
     <entry file="file://$PROJECT_DIR$/1.py" />
     <entry file="file://$PROJECT_DIR$/ave_parameter.py" />
-    <entry file="file://$PROJECT_DIR$/image_bimodals.py">
+    <entry file="file://$PROJECT_DIR$/data/Coherence.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="20" />
+        <state relative-caret-position="4410">
+          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/R_square_unimodal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
           <folding>
-            <element signature="e#21#39#0" expanded="true" />
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_unimodls_ves.py">
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/R_square_bimodal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="e#21#39#0" expanded="true" />
+            <element signature="e#22#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_unimodls_vis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/R_square_bimodal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
+        <state relative-caret-position="30">
           <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
@@ -907,10 +1453,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4_train_bimodal_4.py">
+    <entry file="file://F:/Python/Python36/Lib/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="168" column="44" selection-start-line="168" selection-start-column="44" selection-end-line="168" selection-end-column="44" />
+        <state relative-caret-position="75900">
+          <caret line="2530" selection-start-line="2530" selection-end-line="2530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/4_train_unimodal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="257" column="42" selection-start-line="257" selection-start-column="42" selection-end-line="257" selection-end-column="42" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/4calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="156" column="42" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/4calculate_ves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="166" column="42" selection-start-line="166" selection-start-column="42" selection-end-line="166" selection-end-column="42" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/4calculate_vis.py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="197" column="42" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/CoherenceSelect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/image_bimodals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/image_RE_RA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="181" column="19" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/image_unimodls_ves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/image_unimodls_vis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python36/Lib/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/4_train_bimodal_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsiderCoherence/neuronsNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="32" />
           <folding>
             <element signature="e#20#38#0" expanded="true" />
           </folding>
@@ -919,44 +1573,211 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image_RE_RA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6060">
-          <caret line="210" column="25" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="25" />
+        <state relative-caret-position="4920">
+          <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4_train_unimodal.py">
+    <entry file="file://F:/Python/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7890">
-          <caret line="271" column="49" selection-start-line="271" selection-start-column="49" selection-end-line="271" selection-end-column="49" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="223">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python36/Lib/site-packages/scipy/optimize/_minimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="608" selection-start-line="608" selection-end-line="608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4calculate_vis.py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4calculate_ves.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3870">
-          <caret line="138" column="19" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
           <folding>
             <element signature="e#20#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4calculate_vis.py.py">
+    <entry file="file://$PROJECT_DIR$/4calculate_ves_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6180">
-          <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
+        <state relative-caret-position="690">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuronsNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_unimodls_ves_8.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_unimodls_vis_8.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_unimodls_vis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4calculate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+        <state relative-caret-position="2520">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
           <folding>
             <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="1686" selection-start-line="1686" selection-end-line="1686" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5calculate_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_unimodls_ves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_train_bimodal_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4calculate_vis_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python36/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4435" selection-start-line="4435" selection-end-line="4435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#3739#3756#0" />
+            <element signature="e#4411#4453#0" />
+            <element signature="e#4799#4815#0" />
+            <element signature="e#5151#5179#0" />
+            <element signature="e#5475#5556#0" />
+            <element signature="e#5831#5912#0" />
+            <element signature="e#6006#6022#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_bimodals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_train_unimodal_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8460">
+          <caret line="290" column="44" selection-start-line="290" selection-start-column="44" selection-end-line="290" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_train_unimodal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_bimodals_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4calculate_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_train_bimodal_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="190" column="44" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="44" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_train_bimodal_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="106" column="101" lean-forward="true" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
